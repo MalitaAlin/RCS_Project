@@ -177,7 +177,7 @@ class TurtleBotPatroler:
              self.rate.sleep()
 
             # if too far go to next goal
-             if(distance > distance > speed * 0.15 * 240 ): 
+             if(distance  > speed * 0.15 * 240 ): 
                 #0.15m/s is the robot's regular speed
                  print(f"Goal x: {goal_x}, Goal y: {goal_y}") 
                  self.stop_robot()
